@@ -1,5 +1,6 @@
 ﻿namespace PlayoVR {
     using UnityEngine;
+    using ViridaxGameStudios.Controllers;
 
     public class Bullet : MonoBehaviour {
         public AudioClip hitSolidSound;
@@ -23,7 +24,7 @@
 
         void OnCollisionEnter(Collision collision) {
             var hit = collision.gameObject;
-
+            
             // Very stupid check to see if we're hitting a gun
             if (hit.GetComponent<Gun>() != null) {
                 return;

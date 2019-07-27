@@ -166,7 +166,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1009108833589340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4059, y: 0.84999996, z: 0.4773}
+  m_LocalPosition: {x: -0.75, y: 0.84999996, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4264116168355410}
@@ -489,6 +489,8 @@ MonoBehaviour:
   bulletSpawn: {fileID: 4719475787863064}
   fireGunSound: {fileID: 8300000, guid: edc6dc12da6af43409913c1d4323ab14, type: 3}
   fireAnimation: {fileID: 111952444757785510}
+  ammo: 10
+  gunType: handgun
 --- !u!114 &114419362682253540
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5449130}
   - component: {fileID: 11411230}
   - component: {fileID: 82814234708814578}
+  - component: {fileID: 114784698192209450}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Sword
@@ -222,3 +223,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114784698192209450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d620e94fbae76da46a2e48cd6c4f9082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountDamage: 2
