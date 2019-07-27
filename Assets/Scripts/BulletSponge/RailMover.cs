@@ -29,6 +29,7 @@ public class RailMover : MonoBehaviour {
 
         if (PhotonNetwork.isMasterClient)
         {
+            print("is master and moving mover");
             speed = 0.05f + rail.currentSpeed;   
             Play();
         }
